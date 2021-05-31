@@ -101,7 +101,7 @@ class US_Postal
             "city" => null,
             "state" => null,
             "zipcode" => null,
-            "country" => null,
+            "country" => "United States",
             "parsedStreet" => null,
         ];
 
