@@ -75,10 +75,8 @@ class Address
             case "USA":
             case "UNITED STATES":
             case "UNITED STATES OF AMERICA":
-                return US_Postal::parseAddress($address);
-
             default:
-                break;
+                return US_Postal::parseAddress($address);
         }
     }
 
