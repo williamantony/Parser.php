@@ -283,8 +283,6 @@ class US_Postal
 
         $street = $address["parsedStreet"];
 
-        print_r($address);
-
         if (!empty($street["number"])) {
             $string .= " " . $street["number"];
         }
