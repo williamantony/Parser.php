@@ -49,6 +49,7 @@ class US_Postal
             "state" => null,
             "zipcode" => null,
             "country" => null,
+            "parsedStreet" => null,
         ];
 
         $string = explode(",", $string);
@@ -57,6 +58,10 @@ class US_Postal
 
             if (!isset($address["street"]) && self::isStreetAddress($theLine)) {
                 $address["street"] = $theLine;
+
+                if (!isset($address["parsedStreet"])) {
+                    $address["parsedStreet"] = self::parseStreetAddress($theLine);
+                }
                 continue;
             }
 

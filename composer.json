@@ -1,16 +1,16 @@
 {
     "name": "wa/parser",
     "description": "A PHP Library for parsing Name, Email, Phone, Address, and more.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "library",
     "minimum-stability": "dev",
     "license": "MIT",
-    "require": {
-        "wa/utilities": "dev-main"
-    },
     "autoload": {
         "psr-4": {
             "WA\\Parser\\": "src/"
         }
+    },
+    "require": {
+        "wa/utilities": "1.0.0"
     }
 }

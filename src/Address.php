@@ -22,6 +22,7 @@ class Address
     {
         $this->rawAddress = $address;
         $this->parsedAddress = self::parse($address);
+
         $this->extract($this->parsedAddress);
     }
 

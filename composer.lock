@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fafa47415d9a1bdaf12cc95106930f90",
+    "content-hash": "615f04b22e26694c34428d6ea145706a",
     "packages": [
         {
             "name": "wa/utilities",
-            "version": "dev-main",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/williamantony/Utilities.php.git",
@@ -20,7 +20,6 @@
                 "reference": "63284b35e0307de0276c025f3b828e210a1d9dc3",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -34,7 +33,7 @@
             "description": "A Simple Utilities Library for PHP",
             "support": {
                 "issues": "https://github.com/williamantony/Utilities.php/issues",
-                "source": "https://github.com/williamantony/Utilities.php/tree/main"
+                "source": "https://github.com/williamantony/Utilities.php/tree/1.0.0"
             },
             "time": "2021-04-26T16:35:08+00:00"
         }
@@ -42,9 +41,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "wa/utilities": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
